@@ -566,17 +566,22 @@ MyScreenManager:
             Rectangle:
                 pos: self.pos
                 size: self.size
-        Label:
-            text:"Party Share"
-            font_size: 100
-            font_name: 'DroidSans'
-            bold: True
-            italic: True
-            pos_hint: {'center_x':.5, 'y': .36}
+#        Label:
+#           text:"Party Share"
+#           font_size: 100
+#           font_name: 'DroidSans'
+#           bold: True
+#           italic: True
+#           pos_hint: {'center_x':.5, 'y': .36}
+        Image:
+            source: "logo.png"
+            size_hint: .5, .5
+            pos_hint: {"center_x": .5, "center_y": .7}
+            allow_stretch: True
         Button:
             text:
             size_hint: .22, .3
-            pos_hint: {'center_x':.3, 'y': .3}
+            pos_hint: {'center_x':.3, 'y': .1}
             on_release: root.manager.current= "second"
             background_color: (.5, 0, .5, 0)
             Image:
@@ -589,7 +594,7 @@ MyScreenManager:
         Button:
             text:
             size_hint: .22, .3
-            pos_hint: {'center_x':.7, 'y': .3}
+            pos_hint: {'center_x':.7, 'y': .1}
             on_release: root.manager.current= "third"
             background_color: (.5, 0, .5, 0)
             Image:
@@ -622,6 +627,7 @@ MyScreenManager:
             Button:
                 id: 0
                 text: " "
+                font_size: 50
                 size_hint: 1, .2
                 pos_hint: {'center_x':.5, 'y': .8}
                 background_color: (.5, 0, .5, .4)
@@ -856,6 +862,10 @@ MyScreenManager:
             Rectangle:
                 pos: self.pos
                 size: self.size
+        Label:
+            text: "Adicionar"
+            pos_hint:{"center_x": .37, "center_y": .65}
+            font_size: 100
 
         TextInput:
             id: musica
@@ -1011,7 +1021,7 @@ MyScreenManager:
                     center_x: self.parent.center_x
                     center_y: self.parent.center_y
                     allow_stretch: True
-                    size: 120, 120
+                    size: 100, 100
         CefBrowser:
             id: browser
 
