@@ -1,0 +1,42 @@
+".container" : {
+	backgroundColor: "#2E64FE"
+}
+
+"#NomeParty":{
+	text: Alloy.Globals.credentials.PartyName,
+	width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    color: "white",
+	font:{
+		fontSize: 40
+	}
+}
+
+"#ViewNome":{
+	height: 55,
+	top: 20,
+	backgroundColor: "#2E64FE"
+}
+
+"#musicas":{
+	height: "65%",
+	width: "90%",
+	top: 80,
+	backgroundColor: "#528EFD",
+	borderRadius: 15,
+	borderWidth: 2,
+	borderColor: "white"
+}
+
+"#mus":{
+	width: "90%",
+	text:"khgjhjkvkvkfkfjjhjfjkggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggjgkh,ybtkuvyrkufkuvkuyr luvyufutdrxdgfcgvhjkjhgfdsdfgyuiol,mnbvcxswertyuil,mnbvcxsertyuikmnbvcdsertyukmnbvcdrty"
+}
+
+"#addMus":{
+	backgroundImage: "botao +.png",
+	backgrondColor:"white",
+	bottom: 10,
+	width: 100,
+	height: 100,
+}

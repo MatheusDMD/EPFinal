@@ -1,0 +1,15 @@
+<Alloy>
+	<Window class="container">
+		<Button id="BotBusca" onClick="avancar"></Button>
+		<Button id="voltar" onClick="voltar"></Button>
+		<SearchBar id="busca"></SearchBar>
+		<TableView id = "musicas">
+			<TableViewRow>
+				<Label text="jbascbasi"></Label>
+			</TableViewRow>
+			<TableViewRow>
+				<Label text="jnakxb"></Label>
+			</TableViewRow>
+		</TableView>
+	</Window>
+</Alloy>

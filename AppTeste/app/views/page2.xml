@@ -1,0 +1,13 @@
+<Alloy>
+	<Window class = "container">
+		<Label id = "NewParty">New Party</Label>
+		<Label id = "NomeParty">Party Name:</Label>
+		<Label id = "Password">Password:</Label>
+		<Label id = "ConfirmPassword">Confirm Password:</Label>
+		<TextField id="txtusr"  top="150" hintText="Party Name" left="20" width="280" height="40" />
+		<TextField id="txtpwd"  top="250" hintText="Password" left = "20" width="280" height="40" passwordMask= "True" />
+		<TextField id="txtconpwd"  top="350" hintText="Confirm Password" left = "20" width="280" height="40" passwordMask= "True" />
+		<Button id = "voltar" onClick = "voltar"></Button>
+		<Button id = "avancar" onClick="ConfirmaDados"></Button>
+	</Window>
+</Alloy>

@@ -1,0 +1,60 @@
+
+".container" : {
+	backgroundColor: "#2E64FE"
+}
+
+"#NewParty":{
+	top: 30,
+	Color:"white",
+	font:{
+		fontSize: 50
+	}
+}
+
+"#NomeParty":{
+	top: 100,
+	left: 20,
+	Color:"white",
+	font:{
+		fontSize: 30,
+	}
+}
+
+"#Password":{
+	top: 200,
+	left: 20,
+	Color:"white",
+	font:{
+		fontSize: 30,
+	}
+}
+
+"#ConfirmPassword":{
+	top: 300,
+	left: 20,
+	Color:"white",
+	font:{
+		fontSize: 30,
+	}
+}
+
+"#voltar":{
+	backgroundImage: "botao voltar.png",
+	bottom: 20,
+	left: 20,
+	width: 120,
+	height: 120,
+}
+
+"#avancar":{
+	backgroundImage: "botao avançar.png",
+	bottom: 20,
+	right: 20,
+	width: 120,
+	height: 120,
+}
+
+"TextField":{
+    borderStyle:Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+  color: '#336699'
+}

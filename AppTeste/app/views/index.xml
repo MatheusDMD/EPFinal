@@ -1,0 +1,7 @@
+<Alloy>
+	<Window class="container">
+		<ImageView id = "logo" image = "logo.png"></ImageView>
+		<Button id = "button" onClick = "doClick" title = ""></Button>
+		<Button id = "button1" onClick = "doClick1" title = ""></Button>
+	</Window>
+</Alloy>
